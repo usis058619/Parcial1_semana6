@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Musica">
+
+    <Button
+        android:id="@+id/bVolver1"
+        android:layout_width="175dp"
+        android:layout_height="46dp"
+        android:text="@string/Regresar6"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/teal_200"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.055"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.977"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/btn_anterior"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/anterior"
+        android:onClick="Anterior"
+        android:textColor="#E1D9D9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.739"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.65"
+        tools:ignore="SpeakableTextPresentCheck" />
+    <Button
+        android:id="@+id/btn_siguiente"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/siguiente"
+        android:onClick="Siguiente"
+        android:textColor="#E1D9D9"
+        app:iconTint="#DDCFCF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.963"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.65"
+        tools:ignore="SpeakableTextPresentCheck" />
+    <Button
+        android:id="@+id/btn_repetir"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/no_repetir"
+        android:onClick="Repetir"
+        android:textColor="#E1D9D9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.54"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.65"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/btn_stop"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/detener"
+        android:onClick="Stop"
+        android:textColor="#E1D9D9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.296"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.65"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/btn_play"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/reproducir"
+        android:onClick="PLayPause"
+        android:textColor="#E1D9D9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.072"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.65"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/btAcercade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="next"
+        android:text="@string/Acercade"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.908"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.896" />
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="385dp"
+        android:layout_height="239dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.032"
+        app:srcCompat="@drawable/portada1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

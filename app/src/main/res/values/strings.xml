@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Parcial 1 Semana 6</string>
+    <string name="Bienvenido">BIENVENIDOS</string>
+    <string name="Parcial1">PRIMER PARCIAL CICLO I-2022</string>
+    <string name="Tema2">PROGRAMACION COMPUTACIONAL II</string>
+    <string name="Button">SIGUIENTE</string>
+    //Pantalla 2 Menu//
+
+    <string name="Menu">MENU</string>
+    <string name="EnviarDatos">ENVIAR DATOS</string>
+    <string name="RecibirDatos">RECIBIR DATOS</string>
+    <string name="Tabs">TABS</string>
+    <string name="Sensor">SENSOR</string>
+    <string name="Acelerometro">ACELEROMETRO</string>
+    <string name="Musica">MUSICA</string>
+    //Pantalla 3 Enviar Datos //
+
+    <string name="titulo">DETERMINAR SI ES MAYOR DE EDAD</string>
+    <string name="nombre">Escriba su nombre</string>
+    <string name="edad">Escriba su edad</string>
+    <string name="enviarDatos">ENVIAR DATOS</string>
+    <string name="volver">VOLVER A MENU</string>
+    <string name="todo">TODO</string>
+    <string name="Enviar">ENVIAR DATOS </string>
+
+
+    //Pantalla 5 Tabs//
+
+    <string name="co">Contacts</string>
+    <string name="em">Email</string>
+    <string name="msg">Messages</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="frag">Fragmentos</string>
+    <string name="ctcFragment">Contacts Information</string>
+    <string name="eFragment">Email Information</string>
+    <string name="msgFragment">Messages Information</string>
+    <string name="Regresar3">VOLVER A MENU</string>
+    //Pantalla 6 Sensor de Proximidad//
+
+    <string name="sensor">SENSOR DE PROXIMIDAD</string>
+    <string name="Regresar4">VOLVER A MENU</string>
+    //Pantalla 7 Acelerometro//
+
+    <string name="acelerometro">ACELEROMETRO</string>
+    <string name="Acelerometro5">VOLVER A MENU</string>
+    //Pantalla 8 Musica y Acercade //
+
+
+    <string name="n1">Jacqueline Vanesa Rivas Araujo código: USIS019521</string>
+    <string name="n2">Gerson Jair Solano Villegas código: USIS51921</string>
+    <string name="n3">Fernando Esaú Amaya Alvarado código: USIS016121</string>
+    <string name="n4">Álvaro Antonio Rivera Moran código: USIS039521</string>
+    <string name="n5">Marvin Miguel Peñalba Escobar: USIS046118</string>
+    <string name="n6">José Pedro Cerna Serrano: USIS058619</string>
+    <string name="Acercade">ACERCA DE</string>
+    <string name="Regresar6">VOLVER A MENU</string>
+    //Pantalla 9 Acercade //
+
+    <string name="Regresar7">VOLVER A MENU</string>
+
+    //Pantalla Video
+
+    <string name="video">REPRODUCTOR DE VIDEO</string>
+    <string name="tod">TODO</string>
+    <string name="Regresar8">VOLVER A MENU</string>
+</resources>

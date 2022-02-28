@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"    xmlns:app="http://schemas.android.com/apk/res-auto"    xmlns:tools="http://schemas.android.com/tools"    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/android1"
+    tools:context=".Bienvenido">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="340dp"
+        android:layout_height="49dp"
+        android:background="@color/teal_200"
+        android:hint="@string/Tema2"
+        android:textColor="@android:color/background_dark"
+        android:textColorHint="@color/black"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitulo1"
+        app:layout_constraintVertical_bias="0.632" />
+
+    <TextView
+        android:id="@+id/tvTitulo1"
+        android:layout_width="325dp"
+        android:layout_height="56dp"
+        android:background="@color/teal_200"
+        android:text="@string/Bienvenido"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.063"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="340dp"
+        android:layout_height="49dp"
+        android:background="@color/teal_200"
+        android:text="@string/Parcial1"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitulo1"
+        app:layout_constraintVertical_bias="0.518" />
+
+
+    <Button
+        android:id="@+id/btSiguiente"
+        android:layout_width="154dp"
+        android:layout_height="58dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="@string/Button"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:backgroundTint="@color/teal_200"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.848"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.92"
+        tools:ignore="TextContrastCheck" />
+</androidx.constraintlayout.widget.ConstraintLayout>

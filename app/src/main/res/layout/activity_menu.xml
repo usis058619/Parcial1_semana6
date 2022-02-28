@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="524dp"
+        android:layout_height="837dp"
+        android:contentDescription="TODO"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.801"
+        app:srcCompat="@drawable/android" />
+
+    <Button
+        android:id="@+id/btReproductorVideo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/video"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/teal_200"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.663" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Menu"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.055"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/btEnviarDatos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/EnviarDatos"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/teal_200"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.272"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <Button
+        android:id="@+id/btTabs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Tabs"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/teal_200"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.44" />
+
+    <Button
+        android:id="@+id/btSensorAcelerometro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Acelerometro"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/teal_200"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.762" />
+
+    <Button
+        android:id="@+id/btMusica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Musica"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/teal_200"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.875" />
+
+    <Button
+        android:id="@+id/btSensorProximidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Sensor"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/teal_200"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.556" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
